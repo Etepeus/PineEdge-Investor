@@ -6,16 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
   <title>PineEdge Investor Presentation</title>
-  <style>
-    /* General page styling */
-    body {
-      font-family: Arial, sans-serif;
-      color: white;
-      background-color: #041f23;  /* #03191c; #041f23 a Darker Green */
-      margin: 0;
-      padding: 0;
+ <style>
+  /* General page styling */
+  body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #041f23;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Tablet / small laptop fix */
+  @media (max-width: 1100px) {
+
+    .spero-toc{
+      display: none !important;
     }
-  </style>
+
+    .type3-hero-card,
+    .card-frame{
+      width: 90% !important;
+      margin: 16px auto !important;
+      padding: 16px !important;
+    }
+
+    .card-component .card-grid{
+      grid-template-columns: 1fr !important;
+      gap: 14px !important;
+    }
+
+    .card-component .card-header{
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      gap: 8px !important;
+    }
+
+    .card-component .card-title{
+      text-align: left !important;
+    }
+
+    table{
+      display: block;
+      width: 100% !important;
+      overflow-x: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .type3-hero-card,
+    .card-frame{
+      width: 96% !important;
+      padding: 14px !important;
+    }
+  }
+</style>
 </head>
 
 <body>
