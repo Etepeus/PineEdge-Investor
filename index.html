@@ -100,8 +100,20 @@
     }
 
     /* Hide TOC on smaller screens to prevent overlap */
-    @media (max-width: 1100px){
-      .spero-toc{ display:none; }
+       @media (max-width: 1100px) {
+
+      .spero-toc{
+        position:relative !important;
+        width:100% !important;
+        height:auto !important;
+        top:auto !important;
+        left:auto !important;
+        margin-bottom:20px;
+      }
+
+      .main-content{
+        margin-left:0 !important;
+        width:100% !important;
     }
   </style>
 
